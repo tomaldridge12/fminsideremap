@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "FMInsideReplace",
+  "version": "1.0",
+  "description": "Replaces FMInside 1-100 values with original 1-20 values",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://fminside.net/players/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
